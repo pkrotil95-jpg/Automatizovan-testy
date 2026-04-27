@@ -1,5 +1,0 @@
-Cílem bylo napsat tři automatizované testy pro webovou stránku https://www.pluxee.cz/ – firemního webu poskytovatele zaměstnaneckých benefitů (stravenkové karty, volnočasové poukázky).
-
-Testy jsou napsané v jazyce Python s využitím frameworku pytest a pluginu pytest-playwright, který zajišťuje ovládání prohlížeče Chromium. Každý test otevře stránku a ověří jednu konkrétní věc: první test kontroluje, zda titulek stránky obsahuje slovo „Pluxee", druhý ověřuje, že je logo viditelné v DOM, a třetí klikne na navigační odkaz vedoucí na stránku pro zaměstnavatele a zkontroluje, zda prohlížeč přešel na správnou URL.
-
-Testy jsou uloženy v souboru test_pluxee.py a spouštějí se příkazem `pytest test_pluxee.py -v`.
