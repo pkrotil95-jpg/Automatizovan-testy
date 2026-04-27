@@ -1,1 +1,0 @@
-# Automatizovan-testy
